@@ -1,4 +1,22 @@
-
 header {
-  color: white;
-}
+  width: 901px;
+  display: inline-block;
+ }
+ 
+ header ul {
+   list-style-type: none;
+ }
+ 
+ header li {
+   float: right;
+ }
+ 
+ main {
+   widows: 901px;
+ }
+ 
+ .horizontal-ruler {
+   width: 901px;
+   height: 3px;
+   background-image: repeat-x;
+ }
