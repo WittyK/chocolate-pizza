@@ -1,22 +1,43 @@
 header {
   width: 901px;
   display: inline-block;
- }
+}
  
- header ul {
-   list-style-type: none;
- }
+header ul {
+  list-style-type: none;
+}
  
- header li {
-   float: right;
- }
+header li {
+  float: right;
+}
  
- main {
-   widows: 901px;
- }
+main {
+  widows: 901px;
+}
  
- .horizontal-ruler {
-   width: 901px;
-   height: 3px;
-   background-image: repeat-x;
- }
+.horizontal-ruler {
+  width: 901px;
+  height: 3px;
+  background-image: repeat-x;
+}
+
+.list.image {
+  position:relative;
+}
+
+.list.image figure {
+  z-index:-1;
+  position:absolute;
+}
+
+.recipe {
+  column-count:2;
+  overflow:hidden;
+  font-size:.9em;
+}
+
+.recipe span {
+  display:inline-block;
+  vertical-align:top;
+  white-space:normal;
+}
